@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <h2>Table 1: Normal Table</h2>
+    <table border="1" cellpadding="5" cellspacing="3">
+      <tr>
+        <th>Name</th>
+        <th>Language</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>Dhanush</td>
+        <td>Java</td>
+        <td>2026</td>
+      </tr>
+      <tr>
+        <td>Bharath</td>
+        <td>Civil</td>
+        <td>2026</td>
+      </tr>
+      <tr>
+        <td>Sri Ram</td>
+        <td>EEE</td>
+        <td>2026</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <h2>Table 2: Table with Colspan</h2>
+    <table border="1" cellpadding="5" cellspacing="3">
+      <tr>
+        <th>Name</th>
+        <th colspan="3">Skills</th>
+      </tr>
+      <tr>
+        <td>Dhanush</td>
+        <td>C</td>
+        <td>java</td>
+        <td>html</td>
+      </tr>
+      <tr>
+        <td>vishal</td>
+        <td>C++</td>
+        <td>Python</td>
+        <td>css</td>
+      </tr>
+    </table>
+
+    <br /><br />
+
+    <h2>Table 3: Table with Rowspan</h2>
+    <table border="1" cellpadding="5" cellspacing="3">
+      <tr>
+        <th>Name</th>
+        <th>Companies</th>
+      </tr>
+      <tr>
+        <td rowspan="3">Dhanush</td>
+        <td>Infosys</td>
+      </tr>
+      <tr>
+        <td>TCS</td>
+      </tr>
+      <tr>
+        <td>Wipro</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Vishal</td>
+        <td>Accenture</td>
+      </tr>
+      <tr>
+        <td>HCL</td>
+      </tr>
+      <tr>
+        <td>Capgemini</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <h2>Table 4: Time Table</h2>
+    <br />
+
+    <table border="2" cellpadding="5" cellspacing="5">
+      <thead>
+        <caption>
+          FULLSTACK DEVELOPMENT - TAP ACADEMY
+        </caption>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Day</th>
+          <th>9-10 AM</th>
+          <th>10-11 AM</th>
+          <th>11-12 PM</th>
+          <th>12-2 PM</th>
+          <th>2-4 PM</th>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <td>MY SQL</td>
+          <td>JAVA</td>
+          <td>Soft Skills</td>
+          <td rowspan="5">Lunch Break</td>
+          <td>Mock</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td colspan="2">Project Class</td>
+          <td>Programming</td>
+          <td>CSS</td>
+        </tr>
+        <tr>
+          <th>Wednesday</th>
+          <td>HTML</td>
+          <td>Python</td>
+          <td>DSA</td>
+          <td rowspan="2">Front End Project</td>
+        </tr>
+        <tr>
+          <th>Thursday</th>
+          <td>JAVA</td>
+          <td colspan="2">React JS</td>
+        </tr>
+        <tr>
+          <th>Friday</th>
+          <td>Programming</td>
+          <td>JAVA</td>
+          <td>DSA</td>
+          <td>Javascript</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="6" align="center">
+            Note:Friday 2-4 PM is Optional activity slot
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <br /><br />
+  </body>
+</html>
